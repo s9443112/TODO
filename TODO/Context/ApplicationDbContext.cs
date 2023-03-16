@@ -14,7 +14,7 @@ namespace TODO.Context
             //base.OnModelCreating(modelBuilder);
             modelBuilder.UseSerialColumns();
         }
-        public DbSet<Movie> Movies { get; set; }
+       
 
     }
 }
